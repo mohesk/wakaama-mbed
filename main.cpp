@@ -161,9 +161,9 @@ int main() {
     objArray[2] = get_object_device();
     objArray[3] = get_object_firmware();
     ((firmware_data_t*)objArray[3]->userData)->updatefw_function = update_firmware;
-    objArray[4] = get_object_rgb_led();
-    objArray[5] = get_object_rgb_led();
-    objArray[6] = get_object_rgb_led();
+    objArray[4] = get_object_device();
+    objArray[5] = get_object_device();
+    objArray[6] = get_object_device();
     lwm2mH = lwm2m_init(prv_connect_server, prv_buffer_send, NULL);
     if (NULL == lwm2mH) {
         ERR("Lwm2m protocol initialization failed");
