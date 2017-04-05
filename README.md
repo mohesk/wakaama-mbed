@@ -1,6 +1,6 @@
 # wakaama-mbed
 connecting a lpc1768 to leshan server using lwm2m protocol
-<span class="images">![](https://github.com/mohesk/wakaama-mbed/blob/master/PastedGraphic-1-1.tiff)</span>
+<span class="images">![](https://github.com/mohesk/wakaama-mbed/blob/master/lpc1768.jpg)</span>
 # Compile and try it
 To compile it you need the [ARM GNU toolschains](https://launchpad.net/gcc-arm-embedded), 
 GCC ARM Embedded can be installed freely using instructions found [here](http://gnuarmeclipse.livius.net/blog/toolchain-install/).
